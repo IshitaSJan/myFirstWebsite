@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Personal Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <script defer src="script.js"></script>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <img src="profile.jpg" alt="Your Profile Picture" class="profile-pic">
+            <h1 id="name">Ishita S.</h1>
+            <p>Welcome to my portfolio! Here you can find my accomplishments, projects, and contact details.</p>
+            <button onclick="toggleDarkMode()">Toggle Dark Mode</button>        
+	</header>
+        
+        <section id="about">
+            <h2>About Me</h2>
+            <h3>Hobbies</h3>
+	    <ol>
+		<li>Play piano</li>
+		<li>Read books</li>
+		<li>Watch movies</li>
+		<li>Spend time with friends and family</li>
+	    </ol>
+	    <h3>Awards</h3>
+	    <ul>
+		<li>Piano CMTA Contest - 2nd Place</li>
+		<li>Regional Technology Student Association Team Website Competition - 5th Place</li>
+		<li><b>Which Coding Language is My Favorite?</b><li>
+	    </ul>
+	    <form>
+		 <input type="checkbox" id="python" name="python" value="python">
+  		<label for="vehicle1"> Python</label><br>
+  		<input type="checkbox" id="HTML" name="HTML" value="HTML">
+  		<label for="vehicle2"> HTML</label><br>
+  		<input type="checkbox" id="java" name="java" value="java">
+  		<label for="vehicle3"> Javascript</label>
+		<br>
+		<button type="button" onclick="alert('I dont have a favorite but I have coded with HTML and Python the most!')">Click Me!</button>
+	    </form>
+        </section>
+        
+        <section id="projects">
+            <h2>My Projects</h2>
+            <ul>
+                <li><a href="https://tanyay.codewizardshq.com/TSA.html">Course Selection School Project</a> - An enhancement for my school's course selection website</li>
+                <li><a href="https://www.tinkercad.com/things/0zhP2jUvFxE-fantabulous-vihelmo">Traffic Light Project</a> - Used and online Arduino kit and replicated a traffic light with buzzer sounds</li>
+            </ul>
+        </section>
+        
+        <section id="links">
+            <h2>Links</h2>
+            <ul>
+                <li><a href="https://github.com/IshitaSJan" target="_blank">GitHub</a></li>
+                <li><a href="https://deepnote.com/workspace/Ishita-fc202eff-c54a-48d2-97e8-ad936c05eb29" target="_blank">Deepnote</a></li>
+                <li><a href="https://docs.google.com/document/d/1NTjYOowGIe54zvmHNegfLGnCWsIlfMLRnhlGNkx4w80/edit?tab=t.0" target="_blank">My Resume</a></li>
+            </ul>
+        </section>
+        
+        <footer>
+            <p>Contact me at: <span id="email">ishita.shrivastava10@gmail.com</span></p>
+        </footer>
+    </div>
+</body>
+</html>
